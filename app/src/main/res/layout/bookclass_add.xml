@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/login"
+	>
+	
+	<TableLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:stretchColumns="1">
+	
+			<TableRow>
+					<TextView android:text="" />
+					<TextView android:text="" />
+			</TableRow>
+			<TableRow>
+					<TextView android:text="" />
+					<TextView android:text="" />
+			</TableRow>
+			<TableRow>
+					<TextView android:text="" />
+					<TextView android:text="" />
+			</TableRow>
+			<TableRow>
+					<TextView android:text="" />
+					<TextView android:text="" />
+			</TableRow>
+			<TableRow>
+					<TextView android:text="" />
+					<TextView android:text="" />
+			</TableRow>
+			
+			<TableRow>
+					<TextView android:text="" />
+					<TextView android:text="" />
+			</TableRow>
+			
+			<TableRow>
+					<TextView android:text="" />
+					<TextView android:text="" />
+			</TableRow>
+			
+	
+		<TableRow>
+			<TextView 
+			android:text="类别名称：" 
+			android:id="@+id/TextView"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="#0000ff"
+			/>
+			
+			<EditText 
+			android:text="" 
+			android:id="@+id/ET_bookClassName"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+		</TableRow> 
+		    
+		<TableRow 
+			android:gravity="right">
+				<Button 
+				android:text="确定" 
+				android:id="@+id/BtnAdd"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"/>
+	
+			<Button 
+				android:text="重新填写" 
+				android:id="@+id/BtnReset"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"/>
+		
+		</TableRow>
+
+	</TableLayout>
+</LinearLayout>
